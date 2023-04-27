@@ -1,0 +1,36 @@
+/* nav_admin */
+.nav_admin{
+    background: linear-gradient(to right,rgb(53, 6, 41),black);
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid rgb(51, 7, 42);
+    border-left: 0;
+    border-right: 0;
+}
+.nav_admin h2{   
+    color: whitesmoke;
+    cursor: pointer;
+    margin-left: 70px;
+}
+.nav_admin .btn_back_home{
+    position: absolute;
+    left: 1170px;
+    background-color: black;
+    border-color: rgb(44, 43, 43);
+    transition: .5s;
+}
+.nav_admin .btn_back_home:hover{
+    background: linear-gradient(to right,rgb(75, 9, 58),black);  
+    border-color: rgb(83, 81, 81);
+}
+.btn_back_admin{
+    background-color: black;
+    border-color: rgb(44, 43, 43);
+    transition: .5s;
+    height: 40px;
+}
+.btn_back_admin:hover{
+    background: linear-gradient(to right,rgb(75, 9, 58),black);  
+    border-color: rgb(83, 81, 81);
+}

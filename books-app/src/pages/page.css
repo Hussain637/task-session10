@@ -1,0 +1,10 @@
+/* BookDetails */
+
+.img_card_content{
+    width: 30%;
+}
+.Card_ImgOverlay_content{
+    transform: translate(400px ,10px);
+    width: 45%;
+}
+/*  */
